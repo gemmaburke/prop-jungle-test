@@ -12,6 +12,10 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-size: 1em;
+}
+
 h4 {
     font-size: 0.9em;
 }
@@ -51,11 +55,29 @@ header li:nth-last-of-type(1) {
     margin: 0;
 }
 
-.contact {
-    background-color: #1F1F1C;
+.main-content-block {
+    padding: 2em;
+    background-color: #FBB03B;
 }
 
-.socials img {
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #4f4f4b;
+    border-radius: 100px;
+    border: solid 2px #454541;
+}
+
+.quote img {
+    height: 10px;
+}
+
+.contact p {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.social img {
     height: 50px;
     object-fit: scale-down;
     border-radius: 50%;
