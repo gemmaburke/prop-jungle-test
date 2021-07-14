@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Forrest - Your Personal Property Agent</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,23 +13,36 @@
 </head>
 <body>
     <header class="header">
-        <img src="images/forrest-logo.svg" alt="Forrest logo">
-        <nav>
-            <ul>
-                <li>BUYING</li>
-                <li>SELLING</li>
-                <li>ABOUT</li>
-            </ul>
-        </nav>
-        <p><img src="images/phone-icon.svg"> 0117 901 2552</p>
-        <p><img src="images/search-icon.svg"> SEARCH PROPERTY</p>
-        <button>BOOK A VALUATION</button>
-        <div class="hero-content">
-            <h1>Your personal property agent</h1>
-            <h4>At Forrest we represent our clients with integrity and expertise, reinforced by a passion for what we sell. Understanding the people behind
-                their homes and the challenges of the process, we balance our love for property with a desire to help people move.
-            </h4>
-            <button>GET TO KNOW US</button>
+        <div class="container-fluid p-4">
+            <div class="row align-items-center">
+                <div class="col-sm pb-4"><img src="images/forrest-logo.svg" alt="Forrest logo"></div>
+                <div class="col-sm pb-4">
+                    <ul>
+                        <li>BUYING</li>
+                        <li>SELLING</li>
+                        <li>ABOUT</li>
+                    </ul>
+                </div>
+                <div class="col-sm pb-4">
+                    <ul>
+                        <li><img src="images/phone-icon.svg"> 0117 901 2552</li>
+                        <li><img src="images/search-icon.svg"> SEARCH PROPERTY</li>
+                    </ul>
+                </div>
+                <!-- <div class="col-sm pb-4"><span><img src="images/search-icon.svg"> SEARCH PROPERTY</span></div> -->
+                <div class="col-sm pb-4"><button>BOOK A VALUATION</button></div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-sm">
+                    <h1 class="pt-4 pb-4">Your personal property agent</h1>
+                    <h4 class="pb-4">At Forrest we represent our clients with integrity and expertise, reinforced by a passion for what we sell. Understanding the people behind
+                        their homes and the challenges of the process, we balance our love for property with a desire to help people move.
+                    </h4>
+                    <button>GET TO KNOW US</button>
+                </div>
+                <div class="col-sm"></div>
+                <div class="col-sm"></div>
+            </div>
         </div>
     </header>
     <main>
@@ -60,9 +74,11 @@
             <p>EMAIL US</p>
             <img src="images/phone-icon-lrg.svg">
             <p>SPEAK TO US</p>
-            <img src="images/facebook.svg">
-            <img src="images/linkedin.svg">
-            <img src="images/instagram.svg">
+            <div class="socials">
+                <img src="images/facebook.svg">
+                <img src="images/linkedin.svg">
+                <img src="images/instagram.svg">
+            </div>
             <p>FOLLOW US</p>
         </div>
     </main>
@@ -72,5 +88,8 @@
         <p>Copyright ©2021 Forrest</p>
         <p>Terms of Use | Privacy Policy & Notice Built by The Property Jungle</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
 </body>
 </html>
