@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #34342F;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+}
+
+button {
+    background-color: #FBB03B;
+}
+
+header {
+    margin: 3em 2em;
+    /* background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    height: 500px; */
+}
+
+.contact {
+    background-color: #1F1F1C;
+}
