@@ -18,18 +18,17 @@
                 <div class="col-sm pb-4"><img src="images/forrest-logo.svg" alt="Forrest logo"></div>
                 <div class="col-sm pb-4">
                     <ul>
-                        <li>BUYING</li>
-                        <li>SELLING</li>
-                        <li>ABOUT</li>
+                        <li><a href="#">BUYING</a></li>
+                        <li><a href="#">SELLING</a></li>
+                        <li><a href="#">ABOUT</a></li>
                     </ul>
                 </div>
                 <div class="col-sm pb-4">
                     <ul>
                         <li><img src="images/phone-icon.svg"> 0117 901 2552</li>
-                        <li><img src="images/search-icon.svg"> SEARCH PROPERTY</li>
+                        <li><img src="images/search-icon.svg"> <a href="#">SEARCH PROPERTY</a></li>
                     </ul>
                 </div>
-                <!-- <div class="col-sm pb-4"><span><img src="images/search-icon.svg"> SEARCH PROPERTY</span></div> -->
                 <div class="col-sm pb-4"><button>BOOK A VALUATION</button></div>
             </div>
             <div class="row justify-content-around">
@@ -76,7 +75,7 @@
             </div>
         </div>
         <div class="container p-4">
-            <div class="row">
+            <div class="row h-100">
                 <div class="col-sm-5">
                     <img src="images/Clifton.jpg" class="img-fluid">
                 </div>
@@ -97,37 +96,51 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" style="background-color: #1F1F1C">
-            <div class="container">
+        <div style="background-color: #1F1F1C">
+            <div class="container p-4">
                 <div class="row pt-4">
                     <div class="col-sm">
-                        <p style="font-weight: 600">CONTACT</p>
+                        <p style="font-weight: 600; text-align: center">CONTACT</p>
                     </div>
                 </div>
                 <div class="row align-items-center contact">
                     <div class="col-sm">
-                        <img src="images/email-icon-lrg.svg">
-                        <p class="py-4">EMAIL US</p>
+                        <div class="centre-container"><img src="images/email-icon-lrg.svg"></div>
+                        <p class="py-4 centre-container"><a href="#">EMAIL US</a></p>
                     </div>
                     <div class="col-sm">
-                        <img src="images/phone-icon-lrg.svg">
-                        <p class="py-4">SPEAK TO US</p>
+                        <div class="centre-container"><img src="images/phone-icon-lrg.svg"></div>
+                        <p class="py-4 centre-container">SPEAK TO US</p>
                     </div>
                     <div class="col social">
-                        <img src="images/facebook.svg">
-                        <img src="images/linkedin.svg">
-                        <img src="images/instagram.svg">
-                        <p class="py-4">FOLLOW US</p>
+                        <div class="centre-container">
+                            <img src="images/facebook.svg" class="fb"> &nbsp;
+                            <img src="images/linkedin.svg" class="linkedin"> &nbsp;
+                            <img src="images/instagram.svg" class="insta">
+                        </div>
+                        <p class="py-4 centre-container">FOLLOW US</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <img src="images/forrest-logo.svg" alt="Forrest logo">
-        <p>40 Berkeley Square, Bristol, BS8 1HP</p>
-        <p>Copyright ©2021 Forrest</p>
-        <p>Terms of Use | Privacy Policy & Notice Built by The Property Jungle</p>
+        <div class="container p-4">
+            <div class="row align-items-center">
+                <div class="col-sm-4">
+                    <img src="images/forrest-logo.svg" alt="Forrest logo" class="pb-3">
+                    <p style="color: #666662; font-weight: 400">40 Berkeley Square, Bristol, BS8 1HP</p>
+                </div>
+                <div class="col-sm-6 pb-3">
+                    <p style="font-size: 0.7em; margin: 0;">Copyright ©2021 Forrest<br>Terms of Use | Privacy Policy & Notice Built by The Property Jungle</p>
+                </div>
+                <div class="col-sm-2 footer-logos">
+                    <!-- <img src="images/the-property-ombudsman.svg"> -->
+                    <!-- Note: SVG file above is corrupt -->
+                    <img src="images/Large-NAEA-Logo-white.png">
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
